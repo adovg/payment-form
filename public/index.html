@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Frontend-kit</title>
+
+    <!-- Поддержка старых браузеров-->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header>
+    <nav class="nav-menu">
+        <a  class="nav__logo"><img src="img/logo_white_animated.svg" alt=""></a>
+        <ul class="nav__item">
+            <li><i class="far fa-envelope"></i> <a href="support@piastrix.com">support@piastrix.com</a> </li>
+            <li></li>
+            <li>English</li>
+            <li><div style="height:50px; border-left:2px solid #000;
+            background-color:#FFFAFA;"><br /></div></li>
+            <li>Русский</li>
+        </ul>
+    </nav>
+</header>
+
+<div class="wrapper">
+
+    <div class="content">
+<section class="payment-details">
+    <h2 class="payment-h2">Номер инвойса 101</h2>
+    <div class="payment-details__items">
+        <p class="payment__left">Получатель:</p>
+        <p class="payment__right">testShop</p>
+    </div>
+    <div class="payment-details__items">
+        <p>Описание:</p>
+        <p>Test invoice</p>
+        </div>
+    <!--<p>Описание: Test invoice</p>-->
+    <div class="payment-h2__pay">
+    <h2 class="payment-h2">Сумма: 10RUB</h2>
+    <h2 class="payment-h2">10 RUB</h2>
+    </div>
+</section>
+
+    <div class="payment-form">
+
+        <article class="payment-form__items">
+    <img src="img/bitcoin.png" alt="bitcoin">
+    <div><a href="">Bitcoin</a></div>
+</article>
+
+        <article class="payment-form__items" onClick="window.location='pay.html'" style="cursor:pointer">
+    <img src="img/visa_mc.png" alt="bitcoin">
+    <div><a href="">Visa/Mastervard</a></div>
+</article>
+
+        <article class="payment-form__items">
+    <img src="img/mts.png" alt="bitcoin">
+    <div><a href="">MTC</a></div>
+</article>
+
+        <article class="payment-form__items">
+    <img src="img/webmoney.png" alt="bitcoin">
+    <div><a href="">Webmoney</a></div>
+</article>
+
+        <article class="payment-form__items">
+    <img src="img/payeer.png" alt="bitcoin">
+    <div><a href="">Payeer</a></div>
+</article>
+    </div> <!--payment-form-->
+    </div> <!--content-->
+
+
+<div class="footer">
+    <a href="https://en.wikipedia.org/wiki/Hyperlink">Контакты</a>
+    <article class="footer-payment">
+        <!--<a href="https://en.wikipedia.org/wiki/Hyperlink">Контакты</a>-->
+        <ul class="footer-item">
+            <!--<li><a href="https://en.wikipedia.org/wiki/Hyperlink">Контакты</a></li>-->
+            <li><img class="footer-img" src="img/visa.png" alt=""></li>
+            <li><img class="footer-img" src="img/masterCard.png" alt=""></li>
+            <li><img class="footer-img" src="img/pciDss.png" alt=""></li>
+        </ul>
+
+        <!--<ul class="footer__language">-->
+            <!--<li class="footer__language">English</li>-->
+            <!--<li class="footer__language"><div style="height:50px; border-left:2px solid #000;-->
+            <!--background-color:#FFFAFA; margin-top:-10px"><br /></div></li>-->
+            <!--<li class="footer__language">Русский</li>-->
+        <!--</ul>-->
+
+    </article>
+
+    <ul class="footer__language">
+        <li class="footer__language">English</li>
+        <li class="footer__language"><div style="height:50px; border-left:2px solid #000;
+            background-color:#FFFAFA; margin-top:-10px"><br /></div></li>
+        <li class="footer__language">Русский</li>
+    </ul>
+
+</div>  <!--footer-->
+
+</div>  <!--wrapper-->
+</body>
+
+
